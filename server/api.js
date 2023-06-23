@@ -6,7 +6,7 @@ const router = Router();
 
 router.get("/", (_, res) => {
 	logger.debug("Welcoming everyone...");
-	res.json({ message: "Study Buddies!" });
+	res.json({ message: "My Study Buddies!" });
 });
 
 export default router;
